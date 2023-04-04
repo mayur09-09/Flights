@@ -1,9 +1,4 @@
 docker pull kantilalchndre1/test:latest
-
-
-
-trimurti chowk, balaji nagar, katraj
-
 https://jovian.ai/kantilal-chandre/untitled
 
 https://github.com/sidhesh-T?tab=repositories
