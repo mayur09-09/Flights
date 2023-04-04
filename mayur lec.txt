@@ -1,0 +1,103 @@
+docker pull kantilalchndre1/test:latest
+
+
+wwyhzgiypt = BA LECTURES
+
+trimurti chowk, balaji nagar, katraj
+
+https://jovian.ai/kantilal-chandre/untitled
+
+https://github.com/sidhesh-T?tab=repositories
+
+django link repeat = Django link Python 35-36
+Wednesday, December 21 · 8:30 – 9:30pm
+Google Meet joining info
+Video call link: https://meet.google.com/gth-yxas-rvc
+
+
+mongoDB integration with python = https://www.w3schools.com/python/python_mongodb_getstarted.asp
+
+https://git-scm.com/downloads
+
+
+we3school
+
+https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
+
+
+
+
+
+
+
+https://docs.djangoproject.com/en/4.1/topics/db/queries/
+
+
+
+Create database in Django- (sql-django connection)
+•	Create new project in Pycharm with new virtual environment.
+•	In C/P, pip install ms-sql django. (ms-sql is compatible with django 4.0.7. pip install ms-sql django command uninstalls Django 4.1.1 version and installs 4.0.7 version itself.)
+•	In ms-sql, create new database. (create new database database_name)
+•	Create new project.
+                 django-admin startproject project_name.
+                 cd project_name
+python manage.py startapp app_name
+•	register app in settings.py
+•	Database configuration for mssql
+•	Create new app.
+DATABASES = {
+    "default": {
+        "ENGINE": "mssql",
+        "NAME": "abc",
+        "USER": "",
+        "PASSWORD": "",
+        "HOST": "DESKTOP-KAVYA",
+        "PORT": "",
+        "OPTIONS": {"driver": "ODBC Driver 17 for SQL Server",
+        },
+    },
+}
+
+•	now, check if connection with database has been done.
+                  python manage.py shell
+                 from dj
+from django.db import connection
+                 c-= connection.cursor()
+                 exit()
+•	create models(tables) in models.py in app
+Class Emp(models.Model):
+      Name=model.CharField(max_length = 25)
+      Age = model.IntegerField()
+      salary = model.IntegerField()
+      city= model.CharField(max_length = 25)
+
+•	Now, convert models in python language into sql language 
+Python manage.py makemigrations
+•	Apply that sql code by below command
+    Python manage.py migra
+Django Link
+
+---for connection
+DATABASES = {
+    'default': {
+        'ENGINE': 'mssql',
+        'NAME': 'amazon',
+        'USER' : '',
+        'PASSWORD': '',
+        'HOST': 'LAPTOP-35R3AILE',
+        'PORT': '',
+        'OPTIONS': {'driver':'ODBC Driver 17 for SQL Server'}
+    }
+}
+
+
+https://meet.google.com/ofx-oowu-psx
+
+
+anaconda navigator
+https://www.anaconda.com/products/distribution/download-success-2
+
+https://docs.anaconda.com/anaconda/install/windows/
+
+
+https://chat.whatsapp.com/I3Q25bC25Q421dwvl51rWZ (unofficial group)
